@@ -77,6 +77,13 @@ nav .sidebar li {
 nav .sidebar li a {
   width: 100%;
 }
+nav .sidebar .menu-close-button {
+  display: flex;
+  justify-content: flex-end;
+}
+nav .sidebar .menu-close-button a {
+  width: auto;
+}
 
 @media (max-width: 800px) {
   .hideOnMobile {
